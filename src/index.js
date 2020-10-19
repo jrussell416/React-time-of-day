@@ -6,3 +6,4 @@
 //Dynamically change the color of the h1 using inline css styles.
 //Morning = red, Afternoon = green, Night = blue.
 import React from "react";
+import RactDom from "react-dom";
