@@ -29,7 +29,9 @@ if (time < 12) {
 
 ReactDom.render(
   <div>
-    <h1 style={timeColour}>{greeting}</h1>
+    <h1 className="heading" style={timeColour}>
+      {greeting}
+    </h1>
   </div>,
   document.getElementById("root")
 );
